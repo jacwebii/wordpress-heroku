@@ -9,7 +9,7 @@
 	"composer"
   ],
   "website": "https://wordpress.org/",
-  "repository": "https://github.com/PhilippHeuer/wordpress-heroku",
+  "repository": "https://github.com/jacwebii/wordpress-heroku",
   "success_url": "/wp/wp-admin",
   "scripts": {
 	"postdeploy": [
@@ -20,35 +20,35 @@
   "env": {
 	"AUTH_KEY": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "v#L|*Wy^a2v6b^uLoKF68rg(y~t6yr0`Bd|jb4U&LFv0cE|u4IUNlcdxRwa.M;G@"
 	},
 	"SECURE_AUTH_KEY": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "Y>ix9dH ?>zR6++)k}vmLUE^vz>_HU@(-> xQ-A<-,?~GJsbXf/<Ra[g`$QZ+: P"
 	},
 	"LOGGED_IN_KEY": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "j+CzkAOm@V^XM|1J5o.6ArVtEq!?_qda0;Dh0*+, +mAe7#u:|l&ho8eLnwLwt-D"
 	},
 	"NONCE_KEY": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "v#0>|~@-IVW3mu{4+3k4OwvhS2[cwnZ8cHf-C_{UK},Ku)j(]ZVXmcut)3-^Nd9a"
 	},
 	"AUTH_SALT": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "v`?dKSx|1}nB^Z4KbJ>ROYj-9T>;smXJxSZ,JgS2*?XvbNQ2@d-v4G?>-ukd{LGq"
 	},
 	"SECURE_AUTH_SALT": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "W^-t(F=)V}J)UyzMV#Q{XpEp5SRKK(qB{+o:g~H{,i$-<Wu..ny6|to0xFpL`MU{"
 	},
 	"LOGGED_IN_SALT": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": ">]{?1qQICl@5T!+4Y@ O#|xj~&O_jVJXa&mrV5A-sfkBGx0Jj<Toh+uX4#%F-nEL"
 	},
 	"NONCE_SALT": {
 	  "description": "A secret key to increase security of stored information.",
-	  "generator": "secret"
+	  "generator": "[U}!>A81#94qhsH>)3o-!{<=X|qa&-laU3WK0c-bWA>4TnWy<TIAN%d<eE6vsfKT"
 	},
 	"HEROKU_APP_NAME": {
 	  "required": false,
