@@ -53,7 +53,8 @@
 	"HEROKU_APP_NAME": {
 	  "required": false,
 	  "description": "Only for automated deploys, please don't enter anything!"
-	}
+	},
+	"DB_PREFIX": "wp_",
   },
   "formation": {
 	"web": {
